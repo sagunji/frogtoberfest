@@ -1,7 +1,9 @@
-const dateFormatter = dateTime => {
-  const date = new Date(dateTime);
+import fecha from 'fecha';
 
-  return date.toDateString();
+const dateFormatter = dateTime => {
+  const date = fecha.format(new Date(dateTime), 'MMMM D, YYYY');
+
+  return date;
 };
 
 export default dateFormatter;

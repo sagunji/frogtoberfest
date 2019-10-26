@@ -25,6 +25,7 @@
     "prettier:fix": "prettier --write \"{src,api}/**/*.js\""
   },
   "dependencies": {
+    "fecha": "^3.0.3",
     "prop-types": "^15.6.2",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
